@@ -351,17 +351,25 @@ header {
     background: var(--color-primary);
     padding: 2rem;
     margin-top: 3rem;
+    position: relative;
 }
 
 .testimonial__body::before{
     content: "";
     display: block;
-    background: red;
+    background: linear-gradient(
+        135deg,
+        transparent,
+        var(--color-primary), 
+        var(--color-primary), 
+        var(--color-primary) 
+    );
     width: 3rem;
     height: 3rem;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: -1.5rem;
+    transform: rotate(45deg);
 }
 
 
