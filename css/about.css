@@ -121,3 +121,8 @@
 .team__member-info p {
     color: var(--color-light);
 }
+
+.team__member-socials {
+    position: absolute;
+    top: 50%;
+}
