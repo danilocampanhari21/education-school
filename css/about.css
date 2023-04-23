@@ -37,13 +37,14 @@
     margin: 1.6rem 0 2.5rem;
 }
 
-.achievements__card {
+.achievements__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr)
+    ;
     gap: 1.5rem;
 }
 
-.achievements__card {
+.achievement__card {
     background: var(--color-bg1);
     padding: 1.6rem;
     border-radius: 1rem;
@@ -51,7 +52,7 @@
     transition: var(--transition);
 }
 
-.achievements__card:hover {
+.achievement__card:hover {
     background: var(--color-bg2);
-    box-shadow: 0 3rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
 }
