@@ -421,12 +421,18 @@
 
                 <script>
                     var swiper = new Swiper(".mySwipermySwiper", {
-                        slidesPerView: 3,
+                        slidesPerView: 1,
                         spaceBetween: 30,
                         pagination: {
                         el: ".Swiper-pagination",
                         clickable: true,
                         },
+                        //when widow width is >=600px
+                        breakpoints: {
+                            600: {
+                                slidesPerView: 2
+                            }
+                        }
                     });
                 </script>
 
