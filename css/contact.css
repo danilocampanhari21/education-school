@@ -44,3 +44,13 @@
     width: 12rem;
     margin-bottom: 2rem;
  }
+
+ .contact__aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+ }
+
+ .contact__aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+ }
